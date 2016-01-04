@@ -2,3 +2,4 @@
 This repository will contains the patches and the feeds for adding MPTCP to OpenWRT. 
 For more info you can see: http://mytechpg.blogspot.it/
 
+See git branches for openwrt patches - e.g. patches_0.90
