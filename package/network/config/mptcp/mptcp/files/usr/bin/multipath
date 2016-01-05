@@ -4,6 +4,9 @@
 #
 # Author: Mario Krueger <openwrt at xedp3x.de>
 # Released under GPL 3 or later
+#
+# Updated "show established connection" command at mptcp 0.90
+# Author: Andrea <mytechpg at gmail.com>
 
 if [ -d "/proc/sys/net/mptcp" ]; then
         if [ `cat /proc/sys/net/mptcp/mptcp_enabled` = 0 ]; then
@@ -37,7 +40,7 @@ case $1 in
         echo
         exit 0 ;;
    "-c")
-        cat /proc/net/mptcp
+        cat /proc/net/mptcp_net/mptcp
         exit 0;;
    "-f")
         cat /proc/net/mptcp_fullmesh
