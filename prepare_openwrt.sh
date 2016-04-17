@@ -7,7 +7,7 @@ git clone git://git.openwrt.org/15.05/openwrt.git
 echo "OpenWRT downloaded"
 
 echo "Download MPTCP kernel patch ..."
-git clone -b linux_3.18.20-mptcp_0.90 https://github.com/mytechpg/mptcp-kernel-patch.git
+git clone -b linux_3.18.29-mptcp_0.90 https://github.com/mytechpg/mptcp-kernel-patch.git
 
 echo "Patch downloaded"
 
